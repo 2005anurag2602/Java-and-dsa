@@ -1,7 +1,6 @@
 // Import the necessary Java class.
-import java.util.Arrays;
 import java.util.Scanner;
-class Simpul
+class simpul
 {
     private static void swap(int[] nums, int i, int j) {
         int number = nums[i];
@@ -15,9 +14,9 @@ class Simpul
             if (arr[i - 1] > arr[i]) {
                 swap(arr, i - 1, i);
             }
-           if (i + 1 < arr.length && arr[i + 1] > arr[i]) {
-               swap(arr, i + 1, i);
-           }
+            if (i + 1 < arr.length && arr[i + 1] > arr[i]) {
+                swap(arr, i + 1, i);
+            }
         }
     }
     public static void main (String[] args)
