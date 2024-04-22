@@ -1,6 +1,7 @@
 // Import the necessary Java class.
 import java.util.Scanner;
-class simpul
+
+public class simpul
 {
     private static void swap(int[] nums, int i, int j) {
         int number = nums[i];
