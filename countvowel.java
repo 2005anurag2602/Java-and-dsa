@@ -17,7 +17,6 @@ public class countvowel {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a string:");
         String inputString = scanner.nextLine();
-
         vowelInString(inputString);
     }
 }
