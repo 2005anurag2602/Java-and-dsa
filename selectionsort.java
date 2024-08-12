@@ -1,4 +1,4 @@
-package sorting;
+
 import java.util.*;
 class selectionsort{
     public static void main(String[] args) {
